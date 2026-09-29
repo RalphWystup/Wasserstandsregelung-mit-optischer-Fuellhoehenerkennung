@@ -1,0 +1,124 @@
+{
+ "datum": "2026-09-29T19:20:30.807Z",
+ "fassung": "1.0",
+ "befunde": [
+  {
+   "gut": true,
+   "text": "keine Konsolenfehler"
+  },
+  {
+   "gut": true,
+   "text": "Werkzeug vor Text: erster Knopf („Regler“) bei 154 px"
+  },
+  {
+   "gut": true,
+   "text": "Bildauswertung: JavaScript findet Zeile 109, Python 109"
+  },
+  {
+   "gut": true,
+   "text": "Konfidenz 0.2092 gegen 0.2077 — Unterschied 0.0014 (Schranke 0.005)"
+  },
+  {
+   "gut": true,
+   "text": "Zweipunktkalibrierung: Y 255 → 100 mm, Y 63 → 250 mm (0.78125 mm je Bildpunkt)"
+  },
+  {
+   "gut": true,
+   "text": "Erkennung gegen den gezeichneten Stand: 100→100.0, 140→140.6, 180→180.5, 220→220.3, 255→255.5 mm; größte Abweichung 0.63 mm (Schranke 3 mm)"
+  },
+  {
+   "gut": true,
+   "text": "untere Erkennungsgrenze 80.43 mm (untere 15 % des ROI werden nicht durchsucht): 12 mm darunter nichts gefunden, 12 mm darüber 93.0 mm"
+  },
+  {
+   "gut": true,
+   "text": "zu dunkel (Beleuchtung 0,55): Gradient -5.95 über der Schwelle -9 → gehalten und dann gelöscht"
+  },
+  {
+   "gut": true,
+   "text": "Empfindlichkeit auf 12 gesenkt: Linie wieder gefunden (Zeile 82)"
+  },
+  {
+   "gut": true,
+   "text": "Sollsprung 150 → 200 mm: Überschwingen 2.62 mm (Python 2.62), bleibende Abweichung 0.002 mm (Python 0.004), Einschwingzeit 81 s — größter Unterschied 0.002 (Schranke 0.2)"
+  },
+  {
+   "gut": true,
+   "text": "Sollwert erreicht: bleibende Abweichung 0.002 mm (Schranke 0,1 mm), Überschwingen 2.62 mm (Schranke 5 mm)"
+  },
+  {
+   "gut": true,
+   "text": "Störung 1 mm/s: Einbruch 9.3 mm (Python 9.3), ausgeregelt in 60 s, bleibende Abweichung 0.001 mm — größter Unterschied 0 (Schranke 0.2)"
+  },
+  {
+   "gut": true,
+   "text": "Verläufe laufen: Zeit 20.8 s → 35.8 s, Bilder 88 → 178, Punkte 42 → 72 (in 1,5 s)"
+  },
+  {
+   "gut": true,
+   "text": "laufender Kreis: Sollwert 180 mm erreicht (Istwert 180.066 mm, Pumpe 69.179 %, Schranke 0,5 mm)"
+  },
+  {
+   "gut": true,
+   "text": "Störung im Betrieb: Einbruch bis 171.4 mm, wieder auf 179.999 mm ausgeregelt, Pumpe von 69.179 % auf 88.825 % (Schranke 0,5 mm)"
+  },
+  {
+   "gut": true,
+   "text": "Dokumentation in der Seite: 37 Tausend Zeichen, Herleitung, Regler, Kalibrierung und die Liste des Offenen"
+  },
+  {
+   "gut": true,
+   "text": "neutralisiert: keine Netzadresse, keine Zugangsdaten — die Kameraadresse steht als Platzhalter"
+  },
+  {
+   "gut": true,
+   "text": "Kopf: Fassung 1.0 · 29.09.2026 · Prof. Dr.-Ing. Ralph Wystup M.Sc. — erstellt mit KI und Agent (Claude Code, Anthropic)"
+  }
+ ],
+ "fehler": 0,
+ "messreihe_erkennung": [
+  {
+   "soll": 100,
+   "mm": 100,
+   "abw": 0,
+   "konf": 0.202
+  },
+  {
+   "soll": 140,
+   "mm": 140.625,
+   "abw": 0.63,
+   "konf": 0.201
+  },
+  {
+   "soll": 180,
+   "mm": 180.46875,
+   "abw": 0.47,
+   "konf": 0.204
+  },
+  {
+   "soll": 220,
+   "mm": 220.3125,
+   "abw": 0.31,
+   "konf": 0.203
+  },
+  {
+   "soll": 255,
+   "mm": 255.46875,
+   "abw": 0.47,
+   "konf": 0.202
+  }
+ ],
+ "schranke_kamera_mm": 3,
+ "probe": {
+  "zeile_js": 109,
+  "konf_js": 0.209153,
+  "zeile_py": 109,
+  "konf_py": 0.207737,
+  "min_grad_js": -10.294419,
+  "min_grad_py": -10.23,
+  "hell_range_js": 164.065564,
+  "hell_range_py": 164.15,
+  "zeile_gleich": true,
+  "konf_abweichung": 0.001416
+ }
+}

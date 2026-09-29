@@ -1,0 +1,63 @@
+{
+ "was": "geschlossene Rechnung im Laplace-Bereich, ohne Abtastung, ohne Totzeit, ohne Stellgrößenbegrenzung",
+ "eingang": {
+  "K_u_mm_je_prozent": 1.8748,
+  "T_s": 36.69,
+  "Td_s": 1.252,
+  "h0_mm": 50.16,
+  "kp": 1.0,
+  "ki": 0.05
+ },
+ "arbeitspunkt": {
+  "h_mm": 150.0,
+  "u_ruhe_prozent": 53.254,
+  "u_ruhe_simuliert_prozent": 53.254,
+  "unterschied_prozentpunkte": 0.0
+ },
+ "kennkreis": {
+  "polynom": [
+   36.69,
+   2.8748,
+   0.09374
+  ],
+  "sigma_1_je_s": 0.039177,
+  "omega_n_rad_s": 0.05055,
+  "daempfung": 0.7751,
+  "omega_d_rad_s": 0.031939,
+  "periode_s": 196.7,
+  "gleich_wie_streckenmodell": true
+ },
+ "sollsprung_50mm": {
+  "B": 0.37326,
+  "t_max_s": 59.4,
+  "ueberschwingen_mm": 3.29,
+  "ueberschwingen_prozent": 6.58,
+  "ueberschwingen_simuliert_mm": 2.62,
+  "unterschied_mm": 0.67,
+  "grund": "in der Simulation läuft die Pumpe am Anfang in die Begrenzung 100 % — der lineare Weg kennt keine Begrenzung und schwingt darum weiter über",
+  "bleibende_abweichung_mm": 0.0,
+  "bleibende_abweichung_simuliert_mm": 0.004
+ },
+ "stoersprung": {
+  "q_v_mm_je_s": 1.0,
+  "t_tiefstwert_s": 21.4,
+  "groesste_abweichung_mm": 8.55,
+  "groesste_abweichung_simuliert_mm": 9.3,
+  "unterschied_mm": 0.75,
+  "grund": "Totzeit 1,25 s und Abtastung 0,5 s wirken wie zusätzliche Verzögerung; der Regler greift später ein"
+ },
+ "aufloesung": {
+  "rechenstufe_mm": 0.00672,
+  "pumpenstufe_prozent": 0.003053,
+  "gemessener_teiler_einheiten": 8,
+  "gemessene_stufe_mm": 0.05372,
+  "stufenzahl": 4095,
+  "bit": 12.0,
+  "reste_mod_teiler": [
+   5
+  ],
+  "versatz_mm": 0.03358,
+  "punkte": 370,
+  "befund": "alle 370 Rohwerte sind Vielfache von 8 plus 5: der Wandler liefert 4095 Stufen (12 Bit), nicht 32760"
+ }
+}
