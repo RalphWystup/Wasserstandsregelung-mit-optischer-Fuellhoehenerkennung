@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Wenn Sie diese Arbeit verwenden, zitieren Sie sie bitte wie folgt."
+title: "Wasserstandsregelung mit optischer Füllhöhenerkennung"
+abstract: "Eine Kamera misst die Füllhöhe im Behälter, ein PI-Regler hält sie auf dem Sollwert. Bildauswertung, Streckenmodell und geschlossener Kreis, alles im Browser nachvollziehbar."
+type: software
+authors:
+  - family-names: Wystup
+    given-names: Ralph
+    name-particle: ""
+    name-suffix: "Prof. Dr.-Ing., M.Sc."
+license: MIT
+url: "https://ralphwystup.github.io/Wasserstandsregelung-mit-optischer-Fuellhoehenerkennung/"
+repository-code: "https://github.com/RalphWystup/Wasserstandsregelung-mit-optischer-Fuellhoehenerkennung"
+date-released: "2026-09-30"
+keywords:
+  - Füllstandsregelung
+  - Bildverarbeitung
+  - PI-Regler
+  - OpenCV
